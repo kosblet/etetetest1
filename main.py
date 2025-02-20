@@ -1,4 +1,4 @@
-# Функции маскировки
+
 def get_mask_card_number(card_number: str) -> str:
     if not card_number.isdigit() or len(card_number) != 16:
         return "Ошибка формата"
