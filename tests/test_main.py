@@ -10,6 +10,7 @@ from main import *
 def test_get_mask_card_number(card_number, expected):
     assert get_mask_card_number(card_number) == expected
 
+
 @pytest.mark.parametrize("account_number, expected", [
     ("12345678901234567890", "**34567890"),
     ("12345", "Ошибка формата"),
